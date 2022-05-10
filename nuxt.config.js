@@ -36,7 +36,14 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'nuxt-basic-auth-module'
   ],
+
+  basic: {
+    name: 'admin',
+    pass: 'admin',
+    enabled: true
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
